@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..:: Manpre ::..</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Historial de Tareas de Mantenimiento</h1>
+    </div>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Fecha</th>
+                    <th>Descripción</th>
+                    <th>Costos Pasivos</th>
+                    <th>Costos Activos</th>
+                    <th>ID Tarea</th>
+                    <th>ID Usuario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2023-11-30</td>
+                    <td>Revisión de aceite</td>
+                    <td>$50</td>
+                    <td>$100</td>
+                    <td>123</td>
+                    <td>456</td>
+                    <td>
+                        <button class="btn btn-primary details-btn">Detalles</button>
+                        <button class="btn btn-success edit-btn">Editar</button>
+                        <button class="btn btn-danger delete-btn">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2023-11-30</td>
+                    <td>Revisión de aceite</td>
+                    <td>$50</td>
+                    <td>$100</td>
+                    <td>123</td>
+                    <td>456</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="btn-container">
+            <button class="btn btn-warning inventory-btn">Ver Inventario</button>
+        </div>
+        <div class="task-details" style="display: none;">
+            <h2>Detalles de la Tarea Seleccionada</h2>
+            <p>ID: <span class="task-id"></span></p>
+            <p>Fecha: <span class="task-date"></span></p>
+            <p>Descripción: <span class="task-description"></span></p>
+            <p>Costos Pasivos: <span class="task-passive-cost"></span></p>
+            <p>Costos Activos: <span class="task-active-cost"></span></p>
+            <p>ID Tarea: <span class="task-tarea-id"></span></p>
+            <p>ID Usuario: <span class="task-user-id"></span></p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

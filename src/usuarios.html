@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..:: Manpre ::..</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+</head>
+<body>
+    <div class="title-container">
+        <h1>Selecciona tu tipo de usuario</h1>
+    </div>
+        <div class="user-selection">
+            <div class="user-option">
+                <h2>Ingeniero de Mantenimiento</h2>
+                <form action="login.php" method="post">
+                    <input type="hidden" name="user_id" value="1">
+                    <label for="username1">Nombre de Usuario:</label>
+                    <input type="text" id="username1" name="username">
+                    <label for="password1">Contraseña:</label>
+                    <input type="password" id="password1" name="password">
+                    <input type="hidden" name="role" value="ingeniero">
+                    <div class="buttons">
+                        <input type="submit" value="Ingresar">
+                        <input type="button" value="Salir">
+                    </div>
+                </form>
+            </div>
+            <div class="user-option">
+                <h2>Jefe de Área de Mantenimiento</h2>
+                <form action="login.php" method="post">
+                    <input type="hidden" name="user_id" value="2">
+                    <label for="username2">Nombre de Usuario:</label>
+                    <input type="text" id="username2" name="username">
+                    <label for="password2">Contraseña:</label>
+                    <input type="password" id="password2" name="password">
+                    <input type="hidden" name="role" value="jefe_area">
+                    <div class="buttons">
+                        <input type="submit" value="Ingresar">
+                        <input type="button" value="Salir">
+                    </div>
+                </form>
+            </div>
+            <div class="user-option">
+                <h2>Técnico de Mantenimiento</h2>
+                <form action="login.php" method="post">
+                    <input type="hidden" name="user_id" value="3">
+                    <label for="username3">Nombre de Usuario:</label>
+                    <input type="text" id="username3" name="username">
+                    <label for="password3">Contraseña:</label>
+                    <input type="password" id="password3" name="password">
+                    <input type="hidden" name="role" value="tecnico">
+                    <div class="buttons">
+                        <input type="submit" value="Ingresar">
+                        <input type="button" value="Salir">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

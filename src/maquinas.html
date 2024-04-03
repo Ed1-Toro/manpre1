@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..:: Manpre ::..</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+    </head>
+<body>
+    <div class="title-container">
+        <h1>Selección Máquinas</h1>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h2>Formulario de Máquinas</h2>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="idMaquina">ID Máquina:</label>
+                <input type="text" id="idMaquina" name="idMaquina">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" name="modelo">
+
+                <label for="numeroSerie">Número de Serie:</label>
+                <input type="text" id="numeroSerie" name="numeroSerie">
+
+                <label for="fecha">Fecha de Adquisición:</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="ubicacion">Ubicación:</label>
+                <input type="text" id="ubicacion" name="ubicacion">
+
+                <label for="idCliente">ID Cliente:</label>
+                <input type="text" id="idCliente" name="idCliente">
+
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="en_operacion">En Operación</option>
+                    <option value="en_mantenimiento">En Mantenimiento</option>
+                    <option value="fuera_de_servicio">Fuera de Servicio</option>
+                </select>
+
+                <label for="imagen">Imagen de la Máquina:</label>
+                <input type="file" id="imagen" name="imagen">
+
+                <div class="buttons">
+                    <input type="submit" value="Aceptar">
+                    <input type="reset" value="Cancelar">
+                </div>
+            </form>
+        </div>
+
+        <div class="selection-container">
+            <h2>Selección Realizada</h2>
+            <div class="machine-info">
+                <h3>Identificación Completa de la Máquina</h3>
+                <img src="imagen_maquina.jpg" alt="Imagen de la Máquina">
+                <ul>
+                    <li><strong>ID Máquina:</strong> Valor seleccionado</li>
+                    <li><strong>Nombre:</strong> Valor seleccionado</li>
+                    <li><strong>Modelo:</strong> Valor seleccionado</li>
+                    <li><strong>Número de Serie:</strong> Valor seleccionado</li>
+                    <li><strong>Fecha de Adquisición:</strong> Valor seleccionado</li>
+                    <li><strong>Ubicación:</strong> Valor seleccionado</li>
+                    <li><strong>ID Cliente:</strong> Valor seleccionado</li>
+                    <li><strong>Estado:</strong> Valor seleccionado</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Software de mantenimiento preventivo de máquinas - Manpre</p>
+    </footer>
+</body>
+</html>

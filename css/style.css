@@ -1,0 +1,598 @@
+/* Estilos para inicio de sesión */
+body {
+    font-family: arial;
+    background-image: url('../img/6.jpg');
+}
+
+.form-login {
+    width: 450px;
+    height: 550;
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 30px;
+    border-top: 4px solid rgb(67, 67, 68);
+    color: black;
+}
+
+.form-login h3 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+width: 50px;
+margin-bottom: 15px;
+padding: 10px 10px;
+background: white;
+font-size: 12px;
+}
+
+.contenedor {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Estilos para menú */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/inversion-tecnologi.png);
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.submenu-items {
+    display: none;
+    padding-left: 20px;
+}
+
+.submenu-items li {
+    margin-bottom: 5px;
+}
+
+.submenu a {
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: #555;
+}
+
+.submenu:hover .submenu-items {
+    display: block;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Estilos para máquinas */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.form-container,
+.selection-container {
+    width: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.form-container h2,
+.selection-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="date"],
+form select,
+form textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form .buttons {
+    text-align: right;
+}
+
+form .buttons input[type="submit"],
+form .buttons input[type="reset"] {
+    padding: 8px 20px;
+    margin-left: 10px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form .buttons input[type="submit"]:hover,
+form .buttons input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+.selection-container {
+    margin-left: 20px;
+}
+
+.selection-container h2 {
+    color: #0056b3;
+}
+
+.machine-info {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+
+.machine-info h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.machine-info img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.machine-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.machine-info ul li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para usuarios */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.user-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.user-option {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-option h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #333;
+}
+
+/* Estilos tareas de mantenimiento */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.title-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.task-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.task-list, .task-selection {
+    width: 48%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-list h2, .task-selection h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333 !important;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3 !important;
+}
+
+.task-selection form {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-selection form label {
+    margin-bottom: 5px;
+}
+
+.task-selection form input[type="text"],
+.task-selection form select,
+.task-selection form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.task-selection form .button-container {
+    margin-top: 20px;
+}
+
+
+/* Estilos historial de mantenimiento */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    background-image: url(..//img/mantenimiento-servidores-sevilla-.jpg);
+}
+
+.title-container {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.task-details {
+    margin-top: 20px;
+}
+
+.task-details h2 {
+    color: #007bff;
+}
+
+.task-details p {
+    margin: 5px 0;
+}
+
+/* Estilos clientes */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-salir {
+    background-color: #333;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.table-container {
+    flex: 1;
+    padding: 20px;
+    overflow: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
