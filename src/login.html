@@ -9,14 +9,15 @@
 <body>
     <section class="form-login">
     <i><h3>MANPRE - Mantenimiento</h3></i>
-    <form action="menu.html" method="post">
+    <form action="#" method="post" onsubmit="return reireccionar('menu.html')">
     <input class="controls" type="text" name="correo" value="" placeholder="correo electrónico">
     <input class="controls" type="password" name="contraseña" value="" placeholder="contraseña">
     <input class="contenedor" type="submit" value="Acceder">
     </form>
     <p><a href="recuperar_contraseña.html" class="forgot-password">¿Olvidaste tu contraseña?</a></p>
     <br>
-    <a href="registro.html" class="create-user">Crear usuario</a>
+    <button onclick="redireccionar('crearcuenta.html')" class="create-user">Crear usuario</button>
     </section>
+    <script src="../js/script.js"></script>
 </body>
 </html>
