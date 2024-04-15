@@ -748,3 +748,15 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px;
+    font-size: 10px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
