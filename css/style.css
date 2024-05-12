@@ -3,11 +3,12 @@ body {
     font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(../img/inversion-tecnologi.png);
 }
 
 .form-login {
     width: 450px;
-    background: #f8f8f8;
+    background: #dbdbe8;
     margin: auto;
     margin-top: 100px;
     text-align: center;
@@ -15,6 +16,30 @@ body {
     border-top: 4px solid rgb(21, 21, 28);
     color: black;
 }
+
+.forgot-password {
+    color: black;
+    text-decoration: none; 
+    font-weight: bold; 
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.forgot-password:hover {
+    color: #0056b3; 
+}
+
+.create-user {
+    color: #333; 
+    font-size: 12px; 
+    cursor: pointer;
+}
+
+.create-user:hover {
+    text-decoration: underline;
+}
+
+
 
 /* Estilos para menú */
 

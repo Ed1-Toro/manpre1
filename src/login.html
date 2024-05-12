@@ -9,16 +9,16 @@
 <body>
     <section class="form-login">
     <i><h3>MANPRE - Mantenimiento</h3></i>
-    <form action="menu.html" method="post" onsubmit=" return redireccionar('menu.html')">
-    <input class="controls" type="text" name="correo" value="" placeholder="correo electrónico">
-    <input class="controls" type="password" name="contraseña" value="" placeholder="contraseña">
+    <form id="loginForm" action="" method="post">
+    <input class="controls" id="correo" type="text" name="correo" value="" placeholder="correo electrónico">
+    <input class="controls" id="contrasena" type="password" name="contrasena" value="" placeholder="contraseña">
     <input class="contenedor" type="submit" value="Acceder">
     </form>
-    <p><a href="recuperar_contraseña.html" class="forgot-password">¿Olvidaste tu contraseña?</a></p>
+    <p><a id="olvidocontrasena" onclick="ruta('recupecontrasena.html')" class="forgot-password">¿Olvidaste tu contraseña?</a></p>
     <br>
-    <button onclick="redireccionar('crearcuenta.html')" class="create-user">Crear usuario</button>
+    <span onclick="ruta('crearcuenta.html')" class="create-user">Crear usuario</span>
     </section>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="../js/main.js"></script>
 </body>
-</html>
+</html> 

@@ -5,14 +5,14 @@
     $db_pass = "Manpre10.";
     $db_name = "dbmanpre1";
 
-    $link = "mysql:host=".$db_host.":".$db_port.";dbname=".$db_name.";";
+    $stmt = $conn->query("SELECT * FROM tabla");
     
     try {
-        $conn = new PDO($link,$db_user,$db_pass);
-        $conn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-    }catch(PDOException $e){
-        die("Error: ".$e->getMessage());
+    $conn = new PDO($link, $db_user, $db_pass);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    } catch(PDOException $e) {
+        
+    die("Error de conexión: " . $e->getMessage());
     }
-
+    
 ?>
